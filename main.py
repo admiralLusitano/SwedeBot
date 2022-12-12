@@ -13,7 +13,6 @@ client = commands.Bot(command_prefix='s!',intents=discord.Intents.all())
 async def on_ready():
 
     print(f"{client.user} has connected to discord!")
-    await client.user.change_presence(status="Use s! for commands")
 
 @client.command()
 
